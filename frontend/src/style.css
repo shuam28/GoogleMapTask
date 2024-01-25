@@ -1,0 +1,101 @@
+/* Add this CSS in your component or styles file */
+
+.Box {
+  background-color: #a13535;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+Input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #3f3c3c;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 500px;
+  /* text-align: center; */
+ 
+}
+
+Button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 200px;
+}
+
+Button:hover {
+  background-color: #0056b3;
+}
+
+Text {
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+Text.color-red {
+  color: #ff0000;
+}
+
+/* Google Map Container Style */
+[style$="-400px"][style^="height:"] {
+  margin-top: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Marker Style */
+.Marker {
+  width: 30px;
+  height: 30px;
+  background-color: #007bff;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 14px;
+  font-weight: bold;
+  border: 2px solid #fff;
+  cursor: pointer;
+}
+
+/* Spinner Style */
+.Spinner {
+  color: #007bff;
+}
+
+/* Loader Container Style */
+.Loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.center-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Optional: This sets the height of the container to 100% of the viewport height. Adjust as needed. */
+}
+
+.center-form form {
+  max-width: 300px; /* Optional: Set a maximum width for the form to avoid it stretching across the entire screen. Adjust as needed. */
+  width: 100%;
+}
+
+
+  
